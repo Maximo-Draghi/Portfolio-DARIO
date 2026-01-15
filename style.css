@@ -428,3 +428,14 @@ body {
         gap: 20px;
     }
 }
+
+.profile-image {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 2px solid #ccc;
+    cursor: pointer;
+}
