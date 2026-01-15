@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio UX/UI - Diseño Gráfico Digital</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Navegación -->
+        <nav class="glass-nav">
+            <div class="logo">
+                <span class="logo-text">Portafolio</span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#inicio" class="active">Inicio</a></li>
+                <li><a href="#proyectos">Proyectos</a></li>
+                <li><a href="#sobre-mi">Sobre mí</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+            <button class="menu-toggle" id="menuToggle">
+                <i class="fas fa-bars"></i>
+            </button>
+        </nav>
+
+        <!-- Sección principal -->
+        <section id="inicio" class="hero">
+            <div class="hero-content glass-card">
+                <h1>Diseñador <span class="highlight">UX/UI</span></h1>
+                <h2>Maquetador Web & Diseño Gráfico Digital</h2>
+                <p>Creo experiencias digitales intuitivas, interfaces atractivas y soluciones visuales que combinan estética y funcionalidad.</p>
+                <a href="#proyectos" class="btn">Ver Proyectos</a>
+            </div>
+            <div class="hero-image">
+                <div class="image-placeholder glass-card">
+                    <i class="fas fa-palette"></i>
+                    <p>Portafolio Visual</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección de proyectos -->
+        <section id="proyectos" class="projects">
+            <h2 class="section-title">Proyectos Destacados</h2>
+            <div class="projects-grid">
+                <div class="project-card glass-card">
+                    <div class="project-icon">
+                        <i class="fas fa-mobile-alt"></i>
+                    </div>
+                    <h3>App Móvil UX</h3>
+                    <p>Diseño de interfaz de usuario para aplicación de productividad con enfoque en experiencia de usuario.</p>
+                    <div class="project-tags">
+                        <span>UI Design</span>
+                        <span>Prototipado</span>
+                    </div>
+                </div>
+                
+                <div class="project-card glass-card">
+                    <div class="project-icon">
+                        <i class="fas fa-laptop-code"></i>
+                    </div>
+                    <h3>Maquetación Web</h3>
+                    <p>Desarrollo frontend y maquetación responsive para sitio de e-commerce con diseño moderno.</p>
+                    <div class="project-tags">
+                        <span>HTML/CSS</span>
+                        <span>Responsive</span>
+                    </div>
+                </div>
+                
+                <div class="project-card glass-card">
+                    <div class="project-icon">
+                        <i class="fas fa-paint-brush"></i>
+                    </div>
+                    <h3>Identidad Visual</h3>
+                    <p>Creación de branding completo para startup tech incluyendo logotipo y materiales gráficos.</p>
+                    <div class="project-tags">
+                        <span>Branding</span>
+                        <span>Gráfico</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección sobre mí -->
+        <section id="sobre-mi" class="about">
+            <div class="about-content glass-card">
+                <h2 class="section-title">Sobre Mí</h2>
+                <p>Soy un profesional especializado en diseño de experiencia de usuario (UX), interfaces (UI) y diseño gráfico digital. Combino habilidades técnicas de maquetación web con principios de diseño centrado en el usuario.</p>
+                
+                <div class="skills">
+                    <h3>Habilidades</h3>
+                    <div class="skill-list">
+                        <div class="skill-item">
+                            <span>Diseño UX/UI</span>
+                            <div class="skill-bar">
+                                <div class="skill-level" style="width: 90%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span>Maquetación Web</span>
+                            <div class="skill-bar">
+                                <div class="skill-level" style="width: 85%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span>Diseño Gráfico</span>
+                            <div class="skill-bar">
+                                <div class="skill-level" style="width: 80%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección de contacto -->
+        <section id="contacto" class="contact">
+            <h2 class="section-title">Contacto</h2>
+            <div class="contact-content glass-card">
+                <p>¿Tienes un proyecto en mente? ¡Hablemos!</p>
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <span>email@ejemplo.com</span>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <span>+34 123 456 789</span>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>España</span>
+                    </div>
+                </div>
+                
+                <div class="social-links">
+                    <a href="#" class="social-link"><i class="fab fa-behance"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-dribbble"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-github"></i></a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <p>© 2023 Portafolio UX/UI & Diseño Gráfico. Todos los derechos reservados.</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
